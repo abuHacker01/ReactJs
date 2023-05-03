@@ -36,7 +36,13 @@
 //// 2. scripts :
 ///// terminalda yoziladigan codelar : qanday yurg'izish, test qilish
 
-// node_modules - bu kampyuter kanfiguratsiyasiga asoslangan papka :
-/// bu degani menni kapyuterimdagi node_modules boshqa odamni kapyuterimdagi node_modules-ga to'g'ri kelmasligini bildiradi ;
+// node_modules - bu kampyuter kanfiguratsiyasiga asoslangan papka :                                                                                   |
+/// bu degani menni kapyuterimdagi node_modules boshqa odamni kapyuterimdagi node_modules-ga to'g'ri kelmasligini bildiradi ;                          |------node_modules-ni kamdan-kam xolatda o'zgartiriladi ;
+/// @babel-react-da yozilgan kodlarini brauzer o'qiydigan ko'rinishga olib kelib beradi ;                                                              |
 
-/// @babel-react kodlarini brauzerni tiliga o'tkazib beradigan papka ;
+// src : ichida bir-nehta fayllar bor
+/// birinchi proekt yurganida src-papka ichiga kiradi .
+//// yani src-papka ichidan index.js-faylini qidiradi. Yani asosiy fayl bu index.js
+
+// nega react-ni (--single-page-application--) - deyiladi :
+///chunki butun boshli react papkasida bitta HTML-fayl bo'ladi ;
