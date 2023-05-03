@@ -36,4 +36,7 @@
 //// 2. scripts :
 ///// terminalda yoziladigan codelar : qanday yurg'izish, test qilish
 
-/// node_modules-bu 
+// node_modules - bu kampyuter kanfiguratsiyasiga asoslangan papka :
+/// bu degani menni kapyuterimdagi node_modules boshqa odamni kapyuterimdagi node_modules-ga to'g'ri kelmasligini bildiradi ;
+
+/// @babel-react kodlarini brauzerni tiliga o'tkazib beradigan papka ;
