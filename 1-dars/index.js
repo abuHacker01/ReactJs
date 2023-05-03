@@ -46,3 +46,5 @@
 
 // nega react-ni (--single-page-application--) - deyiladi :
 ///chunki butun boshli react papkasida bitta HTML-fayl bo'ladi ;
+
+// public :
