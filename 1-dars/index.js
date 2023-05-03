@@ -35,3 +35,6 @@
 
 //// 2. scripts :
 ///// terminalda yoziladigan codelar : qanday yurg'izish, test qilish
+
+/// node_modules-bu 
+
