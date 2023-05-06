@@ -1,8 +1,8 @@
 // npx create-reat-app :
 
-/// biz bu buyruq bilan rreac papka ochib olamiz .
+/// biz bu buyruq bilan reac papka ochib olamiz .
 
-/// va (--npx create-reat-app--)-dan kegin papkaa nimini yozib olishimiz kerak ;
+/// va (--npx create-reat-app--)-dan kegin papka nimini yozib olishimiz kerak ;
 //// papkani nomlashnixam o'zini qonunlari bor :
 ///// 1. papka nomi (--react--) bo'lmasligi kerak
 ///// 2. papka nomini bosh xarifi katta xarif bo'lmasligi kerak
@@ -10,7 +10,7 @@
 // npm start :
 
 /// (--npm start--) huddi html-daggi (--live server--)-ga o'xshaydi ;
-/// uni terminalda yozganda reat papkamiz browserda ochib beradi ;
+/// uni terminalda yozganda react papkamiz browserda ochib beradi ;
 /// uni biz ochmoxchi bo'lgan papkaga kirib kegin yoziladi ;
 
 // (--ReactJS--)-ni serveri 3000-localhost yuradi
@@ -36,12 +36,14 @@
 //// 2. scripts :
 ///// terminalda yoziladigan codelar : qanday yurg'izish, test qilish
 
-// node_modules - bu kampyuter kanfiguratsiyasiga asoslangan papka :                                                                                   |
+// node_modules :
+/// bu kampyuter kanfiguratsiyasiga asoslangan papka :                                                                                   |
 
 /// bu degani menni kapyuterimdagi node_modules boshqa odamni kapyuterimdagi node_modules-ga to'g'ri kelmasligini bildiradi ;                          |------node_modules-ni kamdan-kam xolatda o'zgartiriladi ;
 /// @babel-react-da yozilgan kodlarini brauzer o'qiydigan ko'rinishga olib kelib beradi ;                                                              |
 
-// src : ichida bir-nehta fayllar bor
+// src :
+/// ichida bir-nehta fayllar bor
 /// birinchi proekt yurganida src-papka ichiga kiradi .
 //// yani src-papka ichidan index.js-faylini qidiradi. Yani asosiy fayl bu index.js
 
@@ -52,7 +54,8 @@
 /// public-da juda-juda kam ishlatamiz. xamma qilinadigon ish (--src--)-da
 /// uni ichida HTML-da fayl joylashgan ;
 
-// nega react-ni (--single-page-application--) - deyiladi :
+// single-page-application :
+/// nega react-ni (--single-page-application--) - deyiladi :
 ///chunki butun boshli react papkasida bitta HTML-fayl bo'ladi ;
 
 // .gitignore :
