@@ -37,9 +37,9 @@
 ///// terminalda yoziladigan codelar : qanday yurg'izish, test qilish
 
 // node_modules :
-/// bu kampyuter kanfiguratsiyasiga asoslangan papka :                                                                                   |
-
-/// bu degani menni kapyuterimdagi node_modules boshqa odamni kapyuterimdagi node_modules-ga to'g'ri kelmasligini bildiradi ;                          |------node_modules-ni kamdan-kam xolatda o'zgartiriladi ;
+/// bu kampyuter kanfiguratsiyasiga asoslangan papka :                                                                                                 |
+//                                                                                                                                                     |_____node_modules-ni kamdan-kam xolatda o'zgartiriladi ;
+/// bu degani menni kapyuterimdagi node_modules boshqa odamni kapyuterimdagi node_modules-ga to'g'ri kelmasligini bildiradi ;                          |
 /// @babel-react-da yozilgan kodlarini brauzer o'qiydigan ko'rinishga olib kelib beradi ;                                                              |
 
 // src :
