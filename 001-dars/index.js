@@ -37,6 +37,7 @@
 ///// terminalda yoziladigan codelar : qanday yurg'izish, test qilish
 
 // node_modules - bu kampyuter kanfiguratsiyasiga asoslangan papka :                                                                                   |
+
 /// bu degani menni kapyuterimdagi node_modules boshqa odamni kapyuterimdagi node_modules-ga to'g'ri kelmasligini bildiradi ;                          |------node_modules-ni kamdan-kam xolatda o'zgartiriladi ;
 /// @babel-react-da yozilgan kodlarini brauzer o'qiydigan ko'rinishga olib kelib beradi ;                                                              |
 
@@ -44,7 +45,43 @@
 /// birinchi proekt yurganida src-papka ichiga kiradi .
 //// yani src-papka ichidan index.js-faylini qidiradi. Yani asosiy fayl bu index.js
 
+
+// public :
+
+/// biz src-da qilgan ishlarimizni yig'ib ketamiz ;
+/// public-da juda-juda kam ishlatamiz. xamma qilinadigon ish (--src--)-da
+/// uni ichida HTML-da fayl joylashgan ;
+
 // nega react-ni (--single-page-application--) - deyiladi :
 ///chunki butun boshli react papkasida bitta HTML-fayl bo'ladi ;
 
-// public :
+// .gitignore :
+
+/// .gitignore-da git hubga yuklashini mumkun bo'lmagan papka/fayllar yoziladi ;
+
+/// ular :
+//// 1. node_modules
+//// 2. build
+
+// virtual ReactDOM :
+
+/// virtual ReactDOM : diffing alggaritimidan foidalanadi yani :
+//// diffing alggaritimi :
+//// ekranni qaysi malumot o'zgarganligini aniqlab-turib usha malumot turgan joyni o'zini update qilib beradi ;
+
+// ReactDOM.render() :
+
+/// bu metod ikkita qiymat qabul qiladi :
+
+//// 1. HTML-element :
+///// ReactDOM.render(<h1>Hi ReactJS</h1>)
+
+//// 2. manzil :
+///// yani pirinchi parametr qayerga bori joylashishi kerakligini aytadi ;
+
+// jsx :
+
+/// kengaymasi : javascript xml bo'lib :
+//// HTML-da JavaScriptni, JavaScriptda HTML-ni ishlatishga yordam beradi ;
+
+/// agar biz HTML-ichida JavaScript ko'dini ishlatmoxchi bo'lsag doim gullig qavs (--{ JavaScript code }--) ishlatishimiz kerak ;
