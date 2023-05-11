@@ -53,4 +53,5 @@
 
 // state :
 
-///
+/// state React-da juda ko'p ishlaydi. Misol uchun :
+//// bizda ikkita button bor brini bosganda h1-ning qiymati birga oshsin, ikkin
