@@ -50,3 +50,7 @@
 
 /// biz (--index.js--)-da yozadiganimiz (--single tag--) agar uni (--closing tag)-ga o'zgartirsag ;
 /// agar uni ichidagi children-larini chiqarmohchi bo'lsag (--props.children--) desag chiqadi ;
+
+// state :
+
+///
