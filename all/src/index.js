@@ -1,18 +1,19 @@
-import React, { StrictMode } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Hh from './info';
-import Nav from './navbar';
+import './index.css';
+
+import App from './main';
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-    <StrictMode>
-        <Nav />
-        <Hh />
-        <Hh />
-        <Hh />
-        <Hh />
-        <Hh />
-        <Hh />
-        <Hh />
-        <Hh />
-    </StrictMode>
+    <React.StrictMode>
+        <div className='container'>
+
+            <App />
+        </div>
+
+
+    </React.StrictMode>
 );
