@@ -27,9 +27,9 @@
 //     }
 // }
 
-//// 1.render : qayerda render-ni ko'rsag ekranga chiqarish deb xissoplayveramiz 
+//// 1.render : qayerda render-ni ko'rsag ekranga chiqarish deb xissoplayveramiz
 ///// va xardoyim return qilgan elementini ekranga chiqaradi
-///// xozircha returnga faqay bitta element qo'ya olamiz 
+///// xozircha returnga faqay bitta element qo'ya olamiz
 ///// agar ko'proq element qo'yish kerak bo'lsa bu usullardan foidalansa bo'ladi :
 
 ////// 1. barcha elementlarni bitta divga solib qo'ysa bo'ladi ;
