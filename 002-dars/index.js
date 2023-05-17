@@ -53,5 +53,8 @@
 
 // state :
 
-/// state React-da juda ko'p ishlaydi. Misol uchun :
-//// bizda ikkita button bor brini bosganda h1-ning qiymati birga oshsin, ikkin
+/// state nima maqsatda kerak deyilsa :
+//// rerender qilish xususiyatiga ega bo'lgan malumot turiga aytiladi ;
+
+/// state-ni yurg'izish uchun constractor kerak bo'ladi :
+//// constractor ichida super bo'lishi shart. Constractor-da qanaqa prop bo'lsa superdaxam shunaqa prop bo'lishi kerak
