@@ -57,4 +57,4 @@
 //// rerender qilish xususiyatiga ega bo'lgan malumot turiga aytiladi ;
 
 /// state-ni yurg'izish uchun constractor kerak bo'ladi :
-//// constractor ichida super bo'lishi shart. Constractor-da qanaqa prop bo'lsa superdaxam shunaqa prop bo'lishi kerak
+//// constractor ichida super bo'lishi shart. Constractor-da qanaqa prop bo'lsa superdaxam shunaqa prop bo'lishi kerak ;
